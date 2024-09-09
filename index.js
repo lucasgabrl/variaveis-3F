@@ -11,3 +11,21 @@ console.log(anoAtual);
 
 idade = idade + 1;
 console.log(idade);
+
+const listaDeDestinos = new Array(
+  "Buenos Aires",
+  " Bangkok",
+  " Londres",
+  " Paris",
+  " Nova York"
+);
+
+const idadeComprador = 15;
+
+if(idadeComprador >= 18) {
+  console.log("Comprador maior de idade");
+  console.log("destinos disponíveis: " + listaDeDestinos);
+} else {
+  console.log("Não foi possível concluir a compra");
+  console.log("você é menor de idade");
+}
